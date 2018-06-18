@@ -1,0 +1,26 @@
+Remaining issues:
+
+-adv only follow first agent atm
+-might need more epochs, very computationally intensive atm, no gpu support
+-error function most likely needs more tuning
+	-reward keeping agents at goal
+-adversaries are too slow
+
+Analysis:
+
+-higher percentages of leaders perform much better 40% 
+-saw some good performance in 20% but less common
+-larger leader percentages were able to avoid the adv and keep them in the goal radius
+
+
+Experiments:
+
+10%, 20% 40% leaders
+
+5  50 200 1
+10 50 200 1
+20 50 200 1
+
+10 100 200 1
+20 100 200 1
+40 100 200 1
